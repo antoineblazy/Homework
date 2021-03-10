@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+  background-color: rgb(210, 210, 210);
+  text-align: center ;
+}
+
+h1, h2, a {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #575F7D;
+}
+
+h2 {
+  color: #8ECE90;
+}
+
+a {
+  text-decoration: none ;
+}
+
+p {
+  font-family: 'Lora', serif;
+}
+
+div {
+  background-color: white;
+  width: 650px;
+  margin: 32px auto;
+  padding: 24px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 3px #0000005e;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 24px;
+  display: block;
+  width: 150px;
+  margin: 24px auto;
+  font-weight: bold;
+  border-radius: 7px;
+  border: 1px solid #6B72E1;
+  transition: 1s;
+}
+
+#btn-blue:hover {
+  background-color: white;
+  color: #6B72E1;
+  transition: 1s;
+}
+
+.list-inline li{
+  display: inline;
+}
+
+.list-inline {
+  padding: 0;
+}
+
+.link-dark {
+  font-size: 48px;
+  color: #00000040;
+  transition: 1s;
+}
+
+.link-dark:hover {
+  color: black;
+  transition: 1s;
+}
